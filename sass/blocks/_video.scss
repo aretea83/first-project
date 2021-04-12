@@ -1,0 +1,14 @@
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__iframes {
+        margin-top: 50px;
+    }
+    &__iframe {
+        margin-right: 20px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

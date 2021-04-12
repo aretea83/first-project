@@ -1,0 +1,51 @@
+.header {
+    position: relative;
+    min-height: 600px;
+    max-height: 756px;
+    height: 100vh;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    &__title {
+        margin: 0 64px;
+        width: 730px;
+        font-weight: bold;
+        font-size: 102px;
+        line-height: 96px;
+    }
+    &__subtitle {
+        position: absolute;
+        bottom: 30px;
+        left: 64px;
+        z-index: 1;
+        width: 388px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    &__link {
+        color: #2f80ed;
+        text-decoration: none;
+    }
+    &__main-illustration {
+        background: url('../images/header-image.png') center center/cover no-repeat;
+        width: 765px;
+        height: 608px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
+    &__square-pic {
+        position: absolute;
+        top: 64px;
+        right: 0;
+        width: 568px;
+        height: 568px;
+        background-color: #2f80ed;
+        animation: rotation 20s linear 0s infinite;
+    }
+}
+
